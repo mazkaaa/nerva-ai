@@ -1,0 +1,15 @@
+{
+  "db_name": "PostgreSQL",
+  "query": "\n    INSERT INTO chat_history (user_query, ai_response)\n    VALUES ($1, $2)\n    ",
+  "describe": {
+    "columns": [],
+    "parameters": {
+      "Left": [
+        "Text",
+        "Text"
+      ]
+    },
+    "nullable": []
+  },
+  "hash": "4c2d91450a6057f42c86901c5310a938021fdf20638e5f4c38773c35260eddf6"
+}
