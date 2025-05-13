@@ -10,7 +10,14 @@ ratatui = "0.29.0"
 tokio = { version = "1.44.1", features = ["full", "macros"] }
 sqlx = { version = "0.8.3", features = ["postgres", "runtime-tokio"] }
 chrono = "0.4.40"
-reqwest = { version = "0.12.15", features = ["json"] }
+reqwest = { version = "0.12.15", features = ["json", "blocking"] }
 serde_json = "1.0.140"
 color-eyre = "0.6.3"
 crossterm = "0.28.1"
+serde = { version = "1.0", features = ["derive"] }
+clap = { version = "4.0", features = ["derive"] }
+colored = "2.0"
+clearscreen = "4.0.1"
+regex = "1.10.2"
+termimad = "0.20"
+rustyline = "15.0.0"
